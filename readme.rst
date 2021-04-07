@@ -1,4 +1,11 @@
-# JS Mot Clefs
+# OOP Residence 
+.. |LGTMAlerts| image:: https://img.shields.io/lgtm/alerts/g/pygame/pygame.svg?logo=lgtm&logoWidth=18
+   :target: https://lgtm.com/projects/g/pygame/pygame/alerts/
+   
+.. |HitCount| image:: http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence.svg
+   :target: http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence
+
+## JS Mot Clefs
 
 ## Constructor
 - Une méthode appelé à chaque instanciation de la classe permettant d'initialiser l'instance
