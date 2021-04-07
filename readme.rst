@@ -1,7 +1,6 @@
 # OOP Residence 
 
-.. |LGTMAlerts| image:: https://img.shields.io/lgtm/alerts/g/pygame/pygame.svg?logo=lgtm&logoWidth=18
-   :target: https://lgtm.com/projects/g/pygame/pygame/alerts/
+[![HitCount](http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence.svg)](http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence)
    
 .. |HitCount| image:: http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence.svg
    :target: http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence
