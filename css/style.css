@@ -1,0 +1,60 @@
+body {
+    margin: 0 auto; /* I love centering things */
+    max-width: 80vw;
+    background-color: #112;
+    color: #fff;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+#canvas {
+    display: flex;
+    flex-flow: row wrap;
+
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    border: white 1px solid;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    height: content-box;
+    width: border-box;
+}
+
+.container:after {
+    content: attr(id); /* Get the address of the building */
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.container:hover:after {
+    opacity: 1;
+}
+
+.container:hover > img {
+    opacity: 0.6;
+    transform: translateY(-2%);  /* pop up effect */
+    cursor: pointer;
+}
+
+img.building {
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    height: 15vh;
+    width: auto;
+}
