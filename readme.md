@@ -1,4 +1,4 @@
-# OOP Residence [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Sigmanificient/yb_js_oop_residence.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Sigmanificient/yb_js_oop_residence/context:javascript) [![HitCount](http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence.svg)](http://hits.dwyl.com/Sigmanificient/https://githubcom/Sigmanificient/yb_js_oop_residence) 
+# OOP Residence [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Sigmanificient/yb_js_oop_residence.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Sigmanificient/yb_js_oop_residence/context:javascript)
 
 ## JS Mot Clefs
 
