@@ -1,5 +1,4 @@
-# OOP Residence [![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/Sigmanificient/yb_js_oop_residence.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/Sigmanificient/yb_js_oop_residence/context:javascript)
-
+# OOP Residence [![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/yb_js_oop_residence/badge)](https://www.codefactor.io/repository/github/sigmanificient/yb_js_oop_residence)
 ## JS Mot Clefs
 
 ## Constructor
