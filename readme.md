@@ -4,6 +4,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sigmanificient/yb_js_oop_residence)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Sigmanificient/yb_js_oop_residence)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Sigmanificient/yb_js_oop_residence)
+![Github](https://shields.io/github/license/Sigmanificient/js_news)
 
 ## JS Mot Clefs
 
