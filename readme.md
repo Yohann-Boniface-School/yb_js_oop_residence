@@ -1,5 +1,4 @@
 # OOP Residence
-[![CodeFactor](https://www.codefactor.io/repository/github/sigmanificient/yb_js_oop_residence/badge)](https://www.codefactor.io/repository/github/sigmanificient/yb_js_oop_residence)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Sigmanificient/yb_js_oop_residence)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sigmanificient/yb_js_oop_residence)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Sigmanificient/yb_js_oop_residence)
