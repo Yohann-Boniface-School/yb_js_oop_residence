@@ -1,26 +1,26 @@
 class Buildings {
     static numInstances = 0
-    _id = ++Buildings.numInstances  // ID Tracker for easier management
+    _id = ++Buildings.numInstances; // ID Tracker for easier management
 
     constructor(address) {
-        this.id = this.getId()
-        this._address = address
+        this.id = this.getId();
+        this._address = address;
     }
 
     getId() {
-        return this._id.toString()
+        return this._id.toString();
     }
 
     getAddress() {
-        return this._address
+        return this._address;
     }
 
     getImage() {
-        return `img/${this._image}.png`
+        return `img/${this._image}.png`;
     }
 
     setImg(image) {
-        this._image = image
+        this._image = image;
     }
 
     show_details() {
@@ -28,18 +28,18 @@ class Buildings {
     }
 
     show(canvas) {
-        let container = document.createElement('div')  // The container for the nice animation
-        container.setAttribute('class', 'container')
-        container.setAttribute('id', this.getAddress())
+        let container = document.createElement("div");  // The container for the nice animation
+        container.setAttribute("class", "container");
+        container.setAttribute("id", this.getAddress());
 
-        let img = document.createElement('img')
-        img.setAttribute('id', this.getId())
-        img.setAttribute('class', 'building')
-        img.setAttribute('src', this.getImage())
-        img.setAttribute('alt', this.getAddress())
+        let img = document.createElement("img");
+        img.setAttribute("id", this.getId());
+        img.setAttribute("class", "building");
+        img.setAttribute("src", this.getImage());
+        img.setAttribute("alt", this.getAddress());
 
-        container.appendChild(img) // container hack, cant set :after on pictures
-        canvas.appendChild(container) // adding to canvas
+        container.appendChild(img); // container hack, cant set :after on pictures
+        canvas.appendChild(container); // adding to canvas
     }
 }
 
@@ -47,12 +47,12 @@ class House extends Buildings {
     constructor(address, rooms) {
         super(address);
 
-        this._rooms = rooms
-        super.setImg("house")
+        this._rooms = rooms;
+        super.setImg("house");
     }
 
     getRooms() {
-        return this._rooms
+        return this._rooms;
     }
 
     show_details() {
@@ -64,12 +64,12 @@ class Hospital extends Buildings {
     constructor(address, services) {
         super(address);
 
-        this._services = services
-        super.setImg("hospital")
+        this._services = services;
+        super.setImg("hospital");
     }
 
     getServices() {
-        return this._services
+        return this._services;
     }
 
     show_details() {
@@ -81,17 +81,17 @@ class Firehouse extends Buildings {
     constructor(address, vehicles, workers) {
         super(address);
 
-        this._workers = workers
-        this._vehicles = vehicles
-        super.setImg("firehouse")
+        this._workers = workers;
+        this._vehicles = vehicles;
+        super.setImg("firehouse");
     }
 
     getWorkers() {
-        return this._workers
+        return this._workers;
     }
 
     getVehicles() {
-        return this._vehicles
+        return this._vehicles;
     }
 
     show_details() {
@@ -103,17 +103,17 @@ class Tenement extends Buildings {
     constructor(address, floors, apartment) {
         super(address);
 
-        this._floors = floors
-        this._apartment = apartment
-        super.setImg("tenement")
+        this._floors = floors;
+        this._apartment = apartment;
+        super.setImg("tenement");
     }
 
     getFloors() {
-        return this._floors
+        return this._floors;
     }
 
     getApartment() {
-        return this._apartment
+        return this._apartment;
     }
 
 
