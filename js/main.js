@@ -34,7 +34,7 @@ window.onload = function () {
             document.getElementById((index + 1).toString()).onload = function () {
                 // on Click alert box
                 this.onclick = function () {
-                    build.show_details();
+                    build.showDetails();
                 }
             }
         }

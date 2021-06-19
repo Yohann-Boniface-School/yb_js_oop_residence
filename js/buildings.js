@@ -23,7 +23,7 @@ class Buildings {
         this._image = image;
     }
 
-    show_details() {
+    showDetails() {
         alert(`Bâtiment ${this.id}`);  // Default Show Details of every building
     }
 
@@ -55,7 +55,7 @@ class House extends Buildings {
         return this._rooms;
     }
 
-    show_details() {
+    showDetails() {
         alert(`Maison, ${this.getRooms()} pièces`);
     }
 }
@@ -72,7 +72,7 @@ class Hospital extends Buildings {
         return this._services;
     }
 
-    show_details() {
+    showDetails() {
         alert(`hôpital, ${this.getServices()} services`);
     }
 }
@@ -94,7 +94,7 @@ class Firehouse extends Buildings {
         return this._vehicles;
     }
 
-    show_details() {
+    showDetails() {
         alert(`Caserne, ${this.getWorkers()} pompiers, ${this.getVehicles()} véhicules d'interventions`);
     }
 }
@@ -117,7 +117,7 @@ class Tenement extends Buildings {
     }
 
 
-    show_details() {
+    showDetails() {
         alert(`Immeuble, ${this.getFloors()} étages ${this.getApartment()} appartements`);
     }
 }
