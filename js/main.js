@@ -35,8 +35,8 @@ window.onload = function () {
                 // on Click alert box
                 this.onclick = function () {
                     build.showDetails();
-                }
+                };
             }
         }
-    )
+    );
 }
