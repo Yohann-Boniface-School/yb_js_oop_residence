@@ -1,4 +1,6 @@
 # OOP Residence
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Sigmanificient/yb_js_oop_residence/badges/quality-score.png?b=gh-pages)](https://scrutinizer-ci.com/g/Sigmanificient/yb_js_oop_residence/?branch=gh-pages)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Sigmanificient/yb_js_oop_residence)
 ![GitHub repo size](https://img.shields.io/github/repo-size/Sigmanificient/yb_js_oop_residence)
 ![Lines of code](https://img.shields.io/tokei/lines/github/Sigmanificient/yb_js_oop_residence)
